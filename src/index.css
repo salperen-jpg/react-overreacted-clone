@@ -54,6 +54,30 @@ nav {
 nav .logo {
   font-size: 3rem;
 }
+/* Profile */
+.profile {
+  width: 90vw;
+  max-width: 50rem;
+  margin: 2rem auto;
+  display: flex;
+  gap: 1rem;
+}
+.profile img {
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.profile span {
+  font-size: 1rem;
+}
+.profile .name {
+  color: var(--clr-primary);
+  text-decoration: underline;
+}
+.profile .line {
+  display: block;
+}
 
 /* Articles */
 .articles {
